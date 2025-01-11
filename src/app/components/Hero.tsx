@@ -21,9 +21,11 @@ export default function HeroSection() {
         <p className="text-gray-700 text-sm md:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.
         </p>
-        <button className="px-5 py-3 font-medium text-black bg-pink-500 rounded-lg hover:bg-pink-800">
-        <Link href={'/products'}>  See Menu</Link>
+       <Link href={'/products'}>
+       <button className="px-5 py-3 font-medium text-black bg-pink-500 rounded-lg hover:bg-pink-800">
+          See Menu
         </button>
+       </Link>
       </div>
 
       {/* Right Section */}
